@@ -1,0 +1,36 @@
+/*公路工程start*/
+.glgc{font-size: 24px;color:#555;font-weight: normal;height:34px;width:840px;line-height: 34px; text-align: center;border-bottom: 0.5px solid #ddd;padding-bottom: 8px;}
+.yejiblock{
+	display:flex;
+	width:840px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.yeji{
+	width:189px;
+	height: 144px;
+}
+.yeji1,.yeji2,.yeji3,.yeji4,.yeji5{
+	width:193px;
+	margin-top:20px;
+	display: flex;
+	flex-direction: column;
+	
+}
+.yeji11{
+	width:189px;
+	height:144px;
+	padding:2px 1px;
+	border:0.5px solid #ddd;
+}
+.yeji12 .wenzi{
+	margin:10px;
+	text-align: center;
+	font-size: 14px;	
+}
+.yeji12 .wenzi a{
+	color: #555;
+}
+.yeji11:hover{border-color: #FF7920;}
+.yeji12 .wenzi a:hover{color:#FF7920; }
+/*公路工程end*/

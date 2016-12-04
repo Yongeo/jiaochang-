@@ -1,0 +1,110 @@
+@charset "utf-8";/* CSS Document */
+/* Public */
+html, body, div, span h1, h2, p, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, li, ol, ul, fieldset, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, form
+{margin:0;padding:0;}
+body{
+	font:normal 12px/18px Microsoft YaHei, Arial, Helvetica, sans-serif;
+	text-align:left;
+	 background-color: #f6f6f6;
+	overflow-x:hidden;}
+a:link, a:visited{text-decoration:none;}
+a:hover{font-weight:normal;}
+
+/*导航栏*/
+.view{width:100%;height:60px;background: #004084 !important;}
+.width{display: flex;width:900px;height:60px; margin:0 auto !important;}
+.logo{flex:0 0 50px;margin:0;padding:0;}
+.photo{width:50px;height:50px;margin:5px 0;padding: 0;}
+.nav{flex:1 0 0;line-height: 60px;}
+.navul{margin:0 0 0 30px;}
+.nav ul{list-style: none;}
+.nav ul li{list-style:none;padding:19px 25px;margin:0 5px;display: inline;font-size: 20px;color: #fff !important;height: 60px;}
+.nav ul li a{color:#fff;height: 60px}
+.nav ul li:hover{background-color:#FF7920 ;}
+
+/*背景区*/
+.background{background-color: #efeff9;width:100%;height:140px;}
+.background1{width:1100px;margin:0 auto;height: 140px;}
+.kongbai{width:230px;padding-top: 32px;}
+.gaikuang,.yjzs,.lxwm{width: 230px;height: 90px;text-align:center;line-height: 90px;background-color: #909096;color:#fff;font-size: 36px;margin-top: 0 !important;}
+
+/*主内容*/
+.content{width: 1100px;margin:0 auto;margin-top: 10px !important;display: flex;}
+/*导航栏*/
+.daohang{flex:0 0 230px;margin-right: 20px;}
+.daohang ul li{list-style: none;margin-bottom: 5px;border:0.5px solid #e8e8e8;background:#fff url(../images/icon/se02.png) no-repeat 210px 15px;}
+.daohang ul li a{display: block;padding:15px 20px;font-size: 18px;color:#555;}
+.daohang ul li:hover,.daohang ul li.active {border-color: #8697bf;background:#8697bf url(../images/icon/se01.png) no-repeat 210px 15px;}
+.daohang ul li:hover a,.daohang ul li.active a{color:#fff;}
+
+/*内容*/
+/*公司简介start*/
+.neirong{flex:1 0 0;}
+.gsjs{color: #555;}
+.tupian1{width:840px;height: 540px;}
+.wenzi{margin-top: 15px;font-size: 21px;color: #555;line-height: 32px;}
+/*公司简介end*/
+/*动态公告start*/
+.dtgg{font-size: 24px;color:#555;width: 840px; font-weight: normal;text-align: center;border-bottom: 0.5px solid #ddd;padding-bottom: 20px;}
+.box{margin-left: 14px;}
+.box ul li{margin-top: 15px;}
+.box ul li a{color: #555;font-size: 14px;}
+.box ul li a:hover{color:#FF7920; }
+.box ul li .time{float: right;}
+/*动态公告end*/
+/*公路工程start*/
+.glgc{font-size: 24px;color:#555;font-weight: normal;height:34px;width:840px;line-height: 34px; text-align: center;border-bottom: 0.5px solid #ddd;padding-bottom: 8px;}
+.yejiblock{
+	display:flex;
+	width:840px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.yeji{
+	width:189px;
+	height: 144px;
+}
+.yeji1,.yeji2,.yeji3,.yeji4,.yeji5{
+	width:193px;
+	margin-top:20px;
+	display: flex;
+	flex-direction: column;
+	
+}
+.yeji11{
+	width:189px;
+	height:144px;
+	padding:2px 1px;
+	border:0.5px solid #ddd;
+}
+.yeji12 .wenzi{
+	margin:10px;
+	text-align: center;
+	font-size: 14px;	
+}
+.yeji12 .wenzi a{
+	color: #555;
+}
+.yeji11:hover{border-color: #FF7920;}
+.yeji12 .wenzi a:hover{color:#FF7920; }
+/*公路工程end*/
+/*联系方式start*/
+.lxwm1{font-size: 24px;color:#555;font-weight: normal;height:34px;width:840px;line-height: 34px; text-align: center;border-bottom: 0.5px solid #ddd;padding-bottom: 8px;}
+.lxfs{margin:10px 0;}
+.lxfs ul li{
+	margin-bottom: 15px;
+	list-style: none;
+	font-size: 18px;
+	color: #555;
+}
+/*联系方式end*/
+/*版权信息*/
+footer{
+	background-color: #757575;
+}
+.foot{
+	margin-top: 40px;
+	text-align: center;
+	padding-top: 50px;
+	height: 125px;
+}
