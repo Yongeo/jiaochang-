@@ -1,6 +1,6 @@
 /*内容*/
 /*公司简介start*/
-.neirong{flex:1 0 0;}
+.neirong .neirong1{flex:1 0 0;}
 .gsjs{
 	font-size: 24px;
 	color:#555;
@@ -12,7 +12,7 @@
 .wenzi{margin-top: 15px;font-size: 21px;color: #555;line-height: 32px;}
 /*公司简介end*/
 /*组织机构start*/
-
+.neirong1 figure{width: 800px;height: 800px;}
 /*组织机构end*/
 
 /*资质荣誉*/
